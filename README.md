@@ -1,26 +1,7 @@
 Tensil
 ==========================
 
-[![Build status](https://badge.buildkite.com/11c53cfb0931de5a89dfece9634fe3a5f5cefc9525e1162e1a.svg?branch=main)](https://buildkite.com/tensil/tensil)
-
-## Tensil toolchain flow
-
-![Flow](https://s3.us-west-1.amazonaws.com/downloads.tensil.ai/doc/flow.png)
-
-## Tutorials
-
-For in-depth end-to-end instructions check our tutorials.
-
-- [Learn how to combine Tensil and TF-Lite to run YOLO on Ultra96](https://www.tensil.ai/docs/tutorials/yolo-ultra96v2/)
-- [Learn Tensil with ResNet and PYNQ Z1](https://www.tensil.ai/docs/tutorials/resnet20-pynqz1/)
-- [Learn Tensil with ResNet and Ultra96](https://www.tensil.ai/docs/tutorials/resnet20-ultra96v2/)
-- [Learn how to build speech controlled robot with Tensil and Arty A7 - Part I](https://www.tensil.ai/docs/tutorials/speech-robot-part1/)
-- [Learn how to build speech controlled robot with Tensil and Arty A7 - Part II](https://www.tensil.ai/docs/tutorials/speech-robot-part2/)
-- [Getting Tensil to run ResNet at 300 FPS on ZCU104](https://www.tensil.ai/docs/tutorials/resnet20-zcu104/)
-
-## Documentation
-
-For reference documentation see our [website](https://www.tensil.ai/docs/).
+Original Tensi repo : https://github.com/tensil-ai/tensil
 
 ## Setup
 
@@ -151,8 +132,3 @@ aws ecr get-login-password | docker login --username AWS --password-stdin <ACCOU
 docker tag tensil-web-compiler <ACCOUNT ID>.dkr.ecr.<REGION>.amazonaws.com/tf2rtl-web-compiler
 docker push <ACCOUNT ID>.dkr.ecr.<REGION>.amazonaws.com/tf2rtl-web-compiler
 ```
-
-## Get help
-
-- Say hello and ask a question on our [Discord](https://discord.gg/TSw34H3PXr)
-- Email us at [support@tensil.ai](mailto:support@tensil.ai)
